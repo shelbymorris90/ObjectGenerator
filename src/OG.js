@@ -265,7 +265,7 @@
     }
 
     function getInstance() {
-      return !instance? (cache = {}, instance = init(), instance) : instance;
+      return !instance? (cache = {}, instance = init()) : instance;
     }
 
     return {
